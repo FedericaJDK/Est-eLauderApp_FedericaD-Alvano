@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A0C88842866764C000EC4D4 /* QuizFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C88832866764C000EC4D4 /* QuizFirstViewController.swift */; };
+		0A18358A286D01EE008DD2CA /* ProductInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A183589286D01EE008DD2CA /* ProductInformationViewController.swift */; };
+		0A18358C286D0505008DD2CA /* BenefitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A18358B286D0505008DD2CA /* BenefitsViewController.swift */; };
 		0A18B3E9286902F000693357 /* AdvancedNightRepairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A18B3E8286902F000693357 /* AdvancedNightRepairViewController.swift */; };
 		0A206F1A286BBA8500EDD419 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A206F19286BBA8500EDD419 /* Question1ViewController.swift */; };
 		0A206F1C286BBB2000EDD419 /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A206F1B286BBB2000EDD419 /* Question2ViewController.swift */; };
@@ -51,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		0A0C88832866764C000EC4D4 /* QuizFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFirstViewController.swift; sourceTree = "<group>"; };
+		0A183589286D01EE008DD2CA /* ProductInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInformationViewController.swift; sourceTree = "<group>"; };
+		0A18358B286D0505008DD2CA /* BenefitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitsViewController.swift; sourceTree = "<group>"; };
 		0A18B3E8286902F000693357 /* AdvancedNightRepairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedNightRepairViewController.swift; sourceTree = "<group>"; };
 		0A206F19286BBA8500EDD419 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
 		0A206F1B286BBB2000EDD419 /* Question2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				0AEA8ADE286BDAB90089423F /* ToDo.swift */,
 				0AEA8AE2286BDBD50089423F /* AddToDoViewController.swift */,
 				0AEA8AE4286BDC3B0089423F /* CompleteToDoViewController.swift */,
+				0A183589286D01EE008DD2CA /* ProductInformationViewController.swift */,
+				0A18358B286D0505008DD2CA /* BenefitsViewController.swift */,
 				0A864E6B2865485B008C2267 /* Main.storyboard */,
 				0A864E712865485C008C2267 /* Assets.xcassets */,
 				0A864E9A28654EC8008C2267 /* 2.jpg */,
@@ -307,6 +313,7 @@
 				0A864E662865485B008C2267 /* AppDelegate.swift in Sources */,
 				0A0C88842866764C000EC4D4 /* QuizFirstViewController.swift in Sources */,
 				0A206F1C286BBB2000EDD419 /* Question2ViewController.swift in Sources */,
+				0A18358C286D0505008DD2CA /* BenefitsViewController.swift in Sources */,
 				0A206F22286BBDBB00EDD419 /* ResultsViewController.swift in Sources */,
 				0A864E702865485B008C2267 /* EsteeLauderApp_FedericaD_Alvano.xcdatamodeld in Sources */,
 				0AEA8AE3286BDBD50089423F /* AddToDoViewController.swift in Sources */,
@@ -316,6 +323,7 @@
 				0A18B3E9286902F000693357 /* AdvancedNightRepairViewController.swift in Sources */,
 				0A864E682865485B008C2267 /* SceneDelegate.swift in Sources */,
 				0AEA8ADF286BDAB90089423F /* ToDo.swift in Sources */,
+				0A18358A286D01EE008DD2CA /* ProductInformationViewController.swift in Sources */,
 				0A206F20286BBD3800EDD419 /* Question4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
