@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Benefits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhZ-I2-5ap">
-                                <rect key="frame" x="130" y="79" width="154" height="33"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="4aH-VV-xED">
                                 <rect key="frame" x="228" y="226" width="166" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -48,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All products in this line are dermatologist approved and non-acnegenic" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msX-jx-ftY">
-                                <rect key="frame" x="32" y="120" width="351" height="87"/>
+                                <rect key="frame" x="32" y="131" width="351" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.85098040100000005" green="0.63529413940000001" blue="0.33725491169999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="21"/>
@@ -84,13 +78,16 @@
                                     <segue destination="skR-6q-LVm" kind="show" id="KeB-D3-Pqp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Benefits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhZ-I2-5ap">
+                                <rect key="frame" x="136" y="75" width="142.5" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hXL-Wo-wvR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="hXL-Wo-wvR" firstAttribute="trailing" secondItem="EhZ-I2-5ap" secondAttribute="trailing" constant="130" id="2Ub-Zm-7gs"/>
-                            <constraint firstItem="EhZ-I2-5ap" firstAttribute="leading" secondItem="hXL-Wo-wvR" secondAttribute="leading" constant="130" id="4ew-Q0-6iu"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3gj-M0-LqU"/>
                     <connections>
@@ -367,18 +364,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzI-60-NhO">
-                                <rect key="frame" x="223" y="440" width="171" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.42745098469999998" green="0.25490197539999998" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Try this habit tracker">
-                                    <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="21"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="DBl-CU-M2e" kind="show" id="M5E-GX-eED"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need a new skincare routine?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eew-ir-5zC">
                                 <rect key="frame" x="20" y="562" width="170" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -394,6 +379,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzI-60-NhO">
+                                <rect key="frame" x="227" y="407" width="155" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.42745098469999998" green="0.25490197539999998" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Try this habit tracker">
+                                    <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="21"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DBl-CU-M2e" kind="show" id="M5E-GX-eED"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FxL-8H-fdK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1041,7 +1038,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ZHq-Tm-7oX"/>
+        <segue reference="CjL-IT-XNW"/>
+        <segue reference="KeB-D3-Pqp"/>
         <segue reference="c5Y-A9-CwT"/>
     </inferredMetricsTieBreakers>
     <resources>
