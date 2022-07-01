@@ -26,7 +26,9 @@ class AdvancedNightRepairViewController: UIViewController {
     @IBOutlet weak var imageModel: UIImageView!
     @IBOutlet weak var imageSerumLab: UIImageView!
 
-       
+    @IBAction func productInfoBtn(_ sender: Any) {
+    }
+    
     @IBAction func websiteBtn(_ sender: UIButton) {
         if let url = URL(string: "https://www.esteelauder.com/") {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)

@@ -16,6 +16,8 @@ class ProductInformationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func homeButton(_ sender: Any) {
+    }
     @IBAction func benefitsBtn(_ sender: Any) {
     }
     @IBAction func SerumBtn(_ sender: Any) {

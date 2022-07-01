@@ -29,7 +29,9 @@ class BenefitsViewController: UIViewController {
     @IBAction func homeBtn(_ sender: Any) {
     }
     
-
+    @IBAction func productInfoBtn(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
